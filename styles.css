@@ -1,0 +1,90 @@
+/* Base styles for the entire page */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    /* Light background color for the page */
+    margin: 0;
+}
+
+/* Container styles */
+.container {
+    background: rgb(131, 176, 237);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 600px;
+    /* Increased width for larger calculator size */
+    max-width: 100%;
+}
+
+/* Heading styles */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    /* Nicer font for heading */
+    font-size: 2em;
+    /* Larger font size for heading */
+    color: #333;
+    /* Darker color for heading */
+    margin-bottom: 20px;
+    /* Space below heading */
+}
+
+/* Label styles */
+label {
+    display: block;
+    font-size: 1.1em;
+    /* Larger font size for labels */
+    color: #555;
+    /* Softer color for labels */
+    margin-bottom: 5px;
+    /* Space below labels */
+}
+
+/* Input styles */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    /* Space below inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    /* Larger font size for inputs */
+}
+
+/* Button styles */
+button {
+    padding: 12px 25px;
+    background-color: #007BFF;
+    /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    /* Larger font size for button */
+    font-family: 'Roboto', sans-serif;
+    /* Matching font for button */
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* Darker shade on hover */
+}
+
+/* Result section styles */
+#result {
+    margin-top: 20px;
+    /* Space above result section */
+    font-family: 'Roboto', sans-serif;
+    /* Matching font for result */
+    font-size: 1.2em;
+    /* Larger font size for result */
+    color: #333;
+    /* Darker color for result text */
+}
